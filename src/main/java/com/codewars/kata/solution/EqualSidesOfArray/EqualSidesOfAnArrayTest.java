@@ -1,6 +1,5 @@
-package test.java.com.codewars.kata;
+package main.java.com.codewars.kata.solution.EqualSidesOfArray;
 
-import main.java.com.codewars.kata.EqualSidesOfAnArray;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

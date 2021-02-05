@@ -1,4 +1,4 @@
-package main.java.com.codewars.kata;
+package main.java.com.codewars.kata.solution.EqualSidesOfArray;
 
 public class EqualSidesOfAnArray {
 
