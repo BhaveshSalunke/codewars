@@ -4,13 +4,6 @@ In our dojo, kata are code challenges focused on improving skill and technique. 
 
 Each kata is crafted for and by the community. The author (or Sensei) who created kata will initially include one or more languages to train in. Other Code Warriors later can "translate" the kata into additional languages.
 
-### Repetition
-On Codewars the idea of repetition is encouraged at your own pace. You will not be pressured to repeat kata you have already completed. If you struggle on a kata it is recommended that you save it to a [[collection|collections]] and revisit the kata later. Even doing a kata just once will often give you some of the value that would normally only come from repetition. This is because after you complete a kata, and your solution is fresh within your mind, you are shown the solutions of other warriors. This can often lead to an epiphany that you otherwise would have to have found on your own over time. 
-
-### Practice and Repeat Training
-On the Codewars dashboard you will always find a kata that you can train with. These kata are chosen at random based on a training routine. If you select "Practice and Repeat" routine then you will only be given kata you have already trained on. This is an excellent way to hone your skills. Repeatedly completing the same kata will allow you to discover and master efficient ways of handling common programming tasks.
-
-You can learn more about training routines [[here|training-routines]].
 
 ## Overview
 
