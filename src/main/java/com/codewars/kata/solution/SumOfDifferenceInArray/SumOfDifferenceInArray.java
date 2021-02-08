@@ -4,31 +4,21 @@ public class SumOfDifferenceInArray {
 
     public static int sumOfDifferences(int[] arr) {
 
-        int length = arr.length;
+        if(arr.length<2) return 0;
 
-        for (int i = 0; i < length; i++) {
+        int MAX = Integer.MIN_VALUE;
+        int MIN = Integer.MAX_VALUE;
 
-            for (int j = i + 1; j < length; j++) {
-
-                if (arr[i] < arr[j]) {
-                    int temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
-                }
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > MAX) {
+                MAX = arr[i];
             }
-        }
-        
-        int sum = 0; //Stores final output
-        /* 
-        * arr [10,2,1]
-        * (10-2)+(2-1)
-        * */
-        for (int i = 0; i < length - 1; i++) {
-            
-            sum += arr[i] - arr[i+1];
-            
+            if (arr[i] < MIN) {
+                MIN = arr[i];
+            }
+
         }
 
-        return sum;
+        return MAX-MIN;
     }
 }
