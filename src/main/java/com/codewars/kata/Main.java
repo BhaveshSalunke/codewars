@@ -4,10 +4,8 @@ import main.java.com.codewars.kata.solution.HighestScoringWord.HighestScoringWor
 
 public class Main {
     public static void main(String args[]) {
-        System.out.println("Hello World");
+        System.out.println("Hello, Mrunmayi here!");
 
-       HighestScoringWord test = new HighestScoringWord();
-        test.high("hello");
 
     }
 }
