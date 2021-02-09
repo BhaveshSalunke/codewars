@@ -1,0 +1,12 @@
+//topic of discussion
+
+     git
+
+//performed tasks
+
+    installed git
+    created repository
+
+//task to be performed
+
+    read article: https://guides.github.com/activities/hello-world/
