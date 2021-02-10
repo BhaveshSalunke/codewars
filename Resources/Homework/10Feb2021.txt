@@ -4,9 +4,30 @@
 
 //performed tasks
 
-    installed git
+    #1 installed git
     created repository
 
 //task to be performed
 
     read article: https://guides.github.com/activities/hello-world/
+
+
+
+
+
+#1 install git
+
+    $git code update options
+        1. HTTPS  :username password
+        2. SSH      :butter experience  setup: ~./ssh ssh-keygen -o generated id_rsa.pub push this key to github
+        3. Github CLI : i dont know how to use it
+
+    $git
+        1. local: code on mrunmayi laptop
+        2. remote: code on github
+
+    #code update {local -> remote}
+        1. git add {filename} *(tip .)  eg. git add main.java
+        2. git commit -m "{message}"   eg. git commit -m "main.java added"
+        3. git push origin main        eg. git push origin main
+        4. git log
