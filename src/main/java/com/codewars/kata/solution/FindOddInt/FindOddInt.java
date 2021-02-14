@@ -7,7 +7,17 @@ public class FindOddInt {
 
     public static int findIt(int[] a) {
 
-        Map<Integer,Integer> hash = new HashMap<>();
+        //first solution
+        for (int value : a) {
+
+            int count = 0;
+            for (int i : a) if (value == i) count++;
+
+            if (count % 2 == 1) return value;
+        }
+
+   /* //second solution
+    Map<Integer,Integer> hash = new HashMap<>();
 
         for (int input: a){
             boolean visited = hash.containsKey(input);
@@ -20,7 +30,7 @@ public class FindOddInt {
         }
         for (Map.Entry<Integer, Integer> hashSet : hash.entrySet()){
             if (hashSet.getValue()%2==1) return hashSet.getKey();
-        }
+        }*/
         return 0;
     }
 }
