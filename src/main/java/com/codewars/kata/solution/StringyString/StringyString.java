@@ -11,7 +11,6 @@ public class StringyString {
 
             if (flag) output = output.concat("1");
             if (!flag) output = output.concat("0");
-
             flag = !flag;
         }
         return output;
